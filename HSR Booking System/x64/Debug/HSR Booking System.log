@@ -1,0 +1,44 @@
+﻿  main.cpp
+  MakingReservation.cpp
+  NorthboundTimetable.cpp
+C:\Users\joann\Downloads\HSR Booking System\HSR Booking System\NorthboundTimetable.cpp(25,53): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\joann\Downloads\HSR Booking System\HSR Booking System\Vector.h(370,32): warning C4244: 'initializing': conversion from 'double' to 'size_t', possible loss of data
+C:\Users\joann\Downloads\HSR Booking System\HSR Booking System\Vector.h(358): message : while compiling class template member function 'void vector<Train>::resize(const vector<Train>::size_type)'
+C:\Users\joann\Downloads\HSR Booking System\HSR Booking System\NorthboundTimetable.cpp(28): message : see reference to function template instantiation 'void vector<Train>::resize(const vector<Train>::size_type)' being compiled
+C:\Users\joann\Downloads\HSR Booking System\HSR Booking System\NorthboundTimetable.h(28): message : see reference to class template instantiation 'vector<Train>' being compiled
+  Reservation.cpp
+C:\Users\joann\Downloads\HSR Booking System\HSR Booking System\Reservation.cpp(43,45): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\joann\Downloads\HSR Booking System\HSR Booking System\Reservation.cpp(58,39): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\joann\Downloads\HSR Booking System\HSR Booking System\Reservation.cpp(67,36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\joann\Downloads\HSR Booking System\HSR Booking System\Reservation.cpp(82,33): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\joann\Downloads\HSR Booking System\HSR Booking System\Reservation.cpp(91,32): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ReservationDatabase.cpp
+C:\Users\joann\Downloads\HSR Booking System\HSR Booking System\ReservationDatabase.cpp(42,55): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\joann\Downloads\HSR Booking System\HSR Booking System\Vector.h(403,23): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Users\joann\Downloads\HSR Booking System\HSR Booking System\Vector.h(398): message : while compiling class template member function 'VectorIterator<VectorVal<Ty>> vector<Ty>::erase(VectorConstIterator<VectorVal<Ty>>)'
+          with
+          [
+              Ty=Reservation
+          ]
+C:\Users\joann\Downloads\HSR Booking System\HSR Booking System\ReservationDatabase.cpp(85): message : see reference to function template instantiation 'VectorIterator<VectorVal<Ty>> vector<Ty>::erase(VectorConstIterator<VectorVal<Ty>>)' being compiled
+          with
+          [
+              Ty=Reservation
+          ]
+C:\Users\joann\Downloads\HSR Booking System\HSR Booking System\ReservationDatabase.h(33): message : see reference to class template instantiation 'vector<Reservation>' being compiled
+C:\Users\joann\Downloads\HSR Booking System\HSR Booking System\Vector.h(370,32): warning C4244: 'initializing': conversion from 'double' to 'size_t', possible loss of data
+C:\Users\joann\Downloads\HSR Booking System\HSR Booking System\Vector.h(358): message : while compiling class template member function 'void vector<Reservation>::resize(const vector<Reservation>::size_type)'
+C:\Users\joann\Downloads\HSR Booking System\HSR Booking System\ReservationDatabase.cpp(44): message : see reference to function template instantiation 'void vector<Reservation>::resize(const vector<Reservation>::size_type)' being compiled
+  ReservationHistory.cpp
+  SouthboundTimetable.cpp
+C:\Users\joann\Downloads\HSR Booking System\HSR Booking System\SouthboundTimetable.cpp(25,53): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\joann\Downloads\HSR Booking System\HSR Booking System\Vector.h(370,32): warning C4244: 'initializing': conversion from 'double' to 'size_t', possible loss of data
+C:\Users\joann\Downloads\HSR Booking System\HSR Booking System\Vector.h(358): message : while compiling class template member function 'void vector<Train>::resize(const vector<Train>::size_type)'
+C:\Users\joann\Downloads\HSR Booking System\HSR Booking System\SouthboundTimetable.cpp(28): message : see reference to function template instantiation 'void vector<Train>::resize(const vector<Train>::size_type)' being compiled
+C:\Users\joann\Downloads\HSR Booking System\HSR Booking System\SouthboundTimetable.h(28): message : see reference to class template instantiation 'vector<Train>' being compiled
+  Train.cpp
+C:\Users\joann\Downloads\HSR Booking System\HSR Booking System\Train.cpp(13,39): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\joann\Downloads\HSR Booking System\HSR Booking System\Train.cpp(34,53): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+C:\Users\joann\Downloads\HSR Booking System\HSR Booking System\Vector.h(411): warning C4715: 'vector<Reservation>::erase': not all control paths return a value
+  HSR Booking System.vcxproj -> C:\Users\joann\Downloads\HSR Booking System\x64\Debug\HSR Booking System.exe
